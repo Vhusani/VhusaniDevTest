@@ -1,0 +1,14 @@
+C:\Users\Work\Documents\@@@@Euromonitor\EuromonitorWebAPI\EuromonitorWebAPI\bin\Debug\netcoreapp2.1\EuromonitorWebAPI.deps.json
+C:\Users\Work\Documents\@@@@Euromonitor\EuromonitorWebAPI\EuromonitorWebAPI\bin\Debug\netcoreapp2.1\EuromonitorWebAPI.runtimeconfig.json
+C:\Users\Work\Documents\@@@@Euromonitor\EuromonitorWebAPI\EuromonitorWebAPI\bin\Debug\netcoreapp2.1\EuromonitorWebAPI.runtimeconfig.dev.json
+C:\Users\Work\Documents\@@@@Euromonitor\EuromonitorWebAPI\EuromonitorWebAPI\bin\Debug\netcoreapp2.1\EuromonitorWebAPI.dll
+C:\Users\Work\Documents\@@@@Euromonitor\EuromonitorWebAPI\EuromonitorWebAPI\bin\Debug\netcoreapp2.1\EuromonitorWebAPI.pdb
+C:\Users\Work\Documents\@@@@Euromonitor\EuromonitorWebAPI\EuromonitorWebAPI\obj\Debug\netcoreapp2.1\EuromonitorWebAPI.csproj.CoreCompileInputs.cache
+C:\Users\Work\Documents\@@@@Euromonitor\EuromonitorWebAPI\EuromonitorWebAPI\obj\Debug\netcoreapp2.1\EuromonitorWebAPI.RazorAssemblyInfo.cache
+C:\Users\Work\Documents\@@@@Euromonitor\EuromonitorWebAPI\EuromonitorWebAPI\obj\Debug\netcoreapp2.1\EuromonitorWebAPI.RazorAssemblyInfo.cs
+C:\Users\Work\Documents\@@@@Euromonitor\EuromonitorWebAPI\EuromonitorWebAPI\obj\Debug\netcoreapp2.1\EuromonitorWebAPI.AssemblyInfoInputs.cache
+C:\Users\Work\Documents\@@@@Euromonitor\EuromonitorWebAPI\EuromonitorWebAPI\obj\Debug\netcoreapp2.1\EuromonitorWebAPI.AssemblyInfo.cs
+C:\Users\Work\Documents\@@@@Euromonitor\EuromonitorWebAPI\EuromonitorWebAPI\obj\Debug\netcoreapp2.1\EuromonitorWebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Work\Documents\@@@@Euromonitor\EuromonitorWebAPI\EuromonitorWebAPI\obj\Debug\netcoreapp2.1\EuromonitorWebAPI.dll
+C:\Users\Work\Documents\@@@@Euromonitor\EuromonitorWebAPI\EuromonitorWebAPI\obj\Debug\netcoreapp2.1\EuromonitorWebAPI.pdb
+C:\Users\Work\Documents\@@@@Euromonitor\EuromonitorWebAPI\EuromonitorWebAPI\obj\Debug\netcoreapp2.1\EuromonitorWebAPI.csprojAssemblyReference.cache
