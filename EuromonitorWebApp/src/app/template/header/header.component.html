@@ -1,0 +1,13 @@
+<nav class="px-2  navbar navbar-expand-lg navbar-light bg-white slide-in-top">
+	<div class="container">
+		<a class="navbar-brand" (click)="forward('/home')"><img class="logo" src="{{logo}}"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+		<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+			<div class="navbar-nav"> <a class="nav-item nav-link" (click)="forward('/home')"><i class="fa fa-home" aria-hidden="true"></i>
+			</a> <a *ngIf="!user" (click)="forward('/login')" class="nav-item nav-link">Login</a> <a *ngIf="user" class="nav-item nav-link" (click)="forward('/user')"><i class="fas fa-user"></i></a> <a *ngIf="user" class="nav-item nav-link" (click)="forward('/cart')"><i class="fas fa-shopping-basket"></i></a> <span *ngIf="user" style="padding: 4px 0px;" class="btn"> 
+          <div (click)="forward('/cart')" class="badge bg-danger">{{totalItems}}</div>
+        </span> <a *ngIf="user" class="nav-item nav-link" (click)="onLogout()">Logout</a> 
+		</div>
+		</div>
+	</div>
+</nav>

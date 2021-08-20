@@ -1,0 +1,23 @@
+<div class="container fade-in-fwd bg-white cart">
+	<div style="text-align: center;font-size: 14px;" *ngIf="product.length == 0"> <img class="CartIcon" src="./../../assets/icon.png"> No results </div>
+	<table *ngIf="product.length != 0" class="table">
+		<tbody>
+			<tr *ngFor="let item of product; let i = index">
+				<td><img style="width: 30px;" src="{{item.img}}"></td>
+				<td>{{item.name}}</td>
+				<td>{{item.text}}</td>
+				<td>R{{item.price}}</td>
+				<td>
+					<button (click)="removeItem(item)" class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i>
+					</button>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-bottom-width: 0px !important" colspan="2"></td>
+				<td style="text-align: right; border-bottom-width: 0px !important"><b>Grand Total:</b></td>
+				<td style="border-bottom-width: 0px !important">R{{grandTotal}}</td>
+				<td style="border-bottom-width: 0px !important"><button (click)="checkout()" class="btn btn-success">Checkout</button></td>
+			</tr>
+		</tbody>
+	</table>
+</div>

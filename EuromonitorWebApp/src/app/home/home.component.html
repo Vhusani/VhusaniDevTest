@@ -1,0 +1,14 @@
+<div class="container fade-in-fwd">
+	<div class="row">
+		<div class="col-sm-3" *ngFor="let item of Products">
+			<div class="card"> <img class="card-image" src="{{item.img}}" alt="">
+				<h5 class="card-title">{{item.name}}</h5>
+				<p class="card-desc">{{item.text}}</p>
+				<p class="card-price">R{{item.price}}</p>
+				<button class="btn btn-success" *ngIf="userInfo" (click)="addToCart(item)"><i style="margin-right: 5px;" class="fa fa-shopping-basket" aria-hidden="true"></i>Add to Cart</button>
+				<button class="btn btn-primary" *ngIf="!userInfo" (click)="logIn()"><i style="margin-right: 5px;" class="fa fa-lock" aria-hidden="true"></i> 
+					Login to Purchase</button>
+			</div>
+		</div>
+	</div>
+</div>
